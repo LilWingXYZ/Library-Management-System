@@ -1,0 +1,80 @@
+2017.10.15   第一阶段第一部分（删）——徐云哲
+
+(建议将显示框拖大观看)
+
+真删除：（图书）
+
+1.无条件删除所有图书：（利用从爽的毁灭性函数实现）
+  int truncateFile(string filename) 
+
+2.利用单一条件查询的删除：（张文政多条件查询功能实现后再增加多条件查询的删除）
+
+首先，在Book类里增加函数  void deleteBookbyId(unsigned int bookId);    //根据bookId删除图书
+                          void deleteBookbyName(char[20] bookName);      //根据bookName删除图书（应考虑重名图书）
+
+然后，函数实现：
+根据bookId删除图书：
+void Book::deleteBookbyId(unsigned int bookId)     //根据张文政提供的vector <book> b和searchBookId函数编写
+{
+    int pos = searchBookId(bookId);   //pos为返回值，表示准备删除图书的位置距离，依据张文政的查询函数，目前暂定返回b[i]的i，如果没查到，返回-1
+    if (pos!=-1)
+    {
+        b.erase(b.begin()+pos);       //erase为vector中的一个擦除函数
+	cout<<"删除图书成功!"<<endl;
+        return ;
+    }
+    else
+        cout<<"没有查询到本书!"<<endl;
+}
+
+
+根据bookName删除图书（考虑重名图书）
+void Book::deleteBookbyName(unsigned int bookName)     //根据张文政提供的vector <book> b和searchBookName函数编写
+{
+    int pos = searchBookName(bookName);   //pos为返回值，表示准备删除图书的位置距离，依据张文政的查询函数，目前暂定返回b[i]的i，如果没查到，返回-1
+    if (pos==-2)                          //返回-2表示有多本同名书
+    {
+	unsigned int deleteBookId;
+	cout<<"请输入要删除书籍的编号："
+	cin>>deleteBookId;
+	deleteBookbyId(deleteBookId);
+	return ;
+    }
+    if (pos!=-1)
+    {
+        b.erase(b.begin()+pos);       //erase为vector中的一个擦除函数
+	cout<<"删除图书成功!"<<endl;
+        return ;
+    }
+    else
+        cout<<"没有查询到本书!"<<endl;
+}
+
+
+伪删除：（图书）
+
+利用单一条件查询的删除：（张文政多条件查询功能实现后再增加多条件查询的删除）
+
+首先，在Book类里增加函数  void falseDeleteBookbyId(unsigned int bookId);       //根据bookId删除图书
+                          void falseDeleteBookbyName(char[20] bookName);       //根据bookName删除图书（应考虑重名图书）
+
+然后，函数实现：
+根据bookId伪删除图书：
+void Book::falseDeleteBookbyId(unsigned int bookId)     //根据张文政提供的vector <book> b和searchBookId函数编写
+{
+    int i = searchBookId(bookId);   //i为返回值，表示准备删除的图书下标，依据张文政的查询函数，目前暂定返回b[i]的i，如果没查到，返回-1
+    if (i!=-1)
+    {
+        b[i].isDelete = true;      
+	cout<<"删除图书成功!"<<endl;
+        return ;
+    }
+    else
+        cout<<"没有查询到本书!"<<endl;
+}
+
+根据bookName伪删除图书（考虑重名图书）  略。具体实现大致同上。
+
+
+真删除：（读者）
+伪删除：（读者）  略。具体实现大致同图书的相应删除操作。

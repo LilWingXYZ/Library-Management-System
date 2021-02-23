@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+class OptionClass {
+    public:
+        OptionClass();
+        login();              //登录
+        logout();             //退出
+        addBook();            //增加图书
+        deleteBook();         //删除图书
+        updateBook();         //修改图书信息
+        searchBook();         //查询图书
+        addUser();            //增加用户
+        deleteUser();         //删除用户
+        updateUser();         //修改图书信息
+        searchUser();         //查询图书
+        borrowBook();         //借书
+        returnBook();         //还书
+        reportTheLossOf
+}

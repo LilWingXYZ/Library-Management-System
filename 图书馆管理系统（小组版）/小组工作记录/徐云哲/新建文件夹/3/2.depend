@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1508583366 source:c:\users\john\desktop\2\main.cpp
+	<iostream>
+	"c_Book.h"
+
+1508582918 c:\users\john\desktop\2\c_book.h
+	<string>
+	<iostream>
+
+1508583707 source:c:\users\john\desktop\2\c_book.cpp
+	"c_Book.h"
+	<fstream>
+	<iostream>
+	<iomanip>
+	<fstream>
+	"c_Book.h"
+
+1508583366 source:c:\users\john\desktop\uml面向对象分析\图书馆管理系统\个人工作记录\徐云哲\新建文件夹\3\main.cpp
+	<iostream>
+	"c_Book.h"
+
+1508582918 c:\users\john\desktop\uml面向对象分析\图书馆管理系统\个人工作记录\徐云哲\新建文件夹\3\c_book.h
+	<string>
+	<iostream>
+
+1508583707 source:c:\users\john\desktop\uml面向对象分析\图书馆管理系统\个人工作记录\徐云哲\新建文件夹\3\c_book.cpp
+	"c_Book.h"
+	<fstream>
+	<iostream>
+	<iomanip>
+	<fstream>
+	"c_Book.h"
+

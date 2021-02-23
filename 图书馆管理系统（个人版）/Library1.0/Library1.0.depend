@@ -1,0 +1,131 @@
+# depslib dependency file v1.0
+1512376583 source:f:\学习\基本专业课程\uml\library1.0\manager.cpp
+	<iostream>
+	<ostream>
+	<fstream>
+	<string>
+	<stdlib.h>
+	"class.h"
+	"manager.h"
+	"user.h"
+	"system.h"
+	<time.h>
+
+1512048986 f:\学习\基本专业课程\uml\library1.0\class.h
+	<iostream>
+	<string.h>
+	<stdio.h>
+	<time.h>
+
+1512048998 f:\学习\基本专业课程\uml\library1.0\manager.h
+	<iostream>
+	<string.h>
+	"Class.h"
+	"User.h"
+
+1512049029 f:\学习\基本专业课程\uml\library1.0\user.h
+	<iostream>
+	<string.h>
+	"Class.h"
+
+1512103263 f:\学习\基本专业课程\uml\library1.0\system.h
+	<iostream>
+	<string.h>
+	"Class.h"
+
+1512103733 source:f:\学习\基本专业课程\uml\library1.0\system.cpp
+	<iostream>
+	<ostream>
+	<fstream>
+	<string>
+	<stdlib.h>
+	"Class.h"
+	"Manager.h"
+	"User.h"
+	"System.h"
+
+1512048959 source:f:\学习\基本专业课程\uml\library1.0\user.cpp
+	<iostream>
+	<fstream>
+	<iostream>
+	<string>
+	"user.h"
+	"class.h"
+
+1512437920 source:f:\学习\基本专业课程\uml\library1.0\main.cpp
+	<iostream>
+	<ostream>
+	<fstream>
+	<sstream>
+	<cstring>
+	<cstdlib>
+	"Class.h"
+	"Manager.h"
+	"System.h"
+	"User.h"
+
+1512439862 source:c:\users\administrator\desktop\library1.0\system.cpp
+	<iostream>
+	<ostream>
+	<fstream>
+	<string>
+	<stdlib.h>
+	"Class.h"
+	"Manager.h"
+	"User.h"
+	"System.h"
+
+1512048986 c:\users\administrator\desktop\library1.0\class.h
+	<iostream>
+	<string.h>
+	<stdio.h>
+	<time.h>
+
+1512048998 c:\users\administrator\desktop\library1.0\manager.h
+	<iostream>
+	<string.h>
+	"Class.h"
+	"User.h"
+
+1512049029 c:\users\administrator\desktop\library1.0\user.h
+	<iostream>
+	<string.h>
+	"Class.h"
+
+1512103263 c:\users\administrator\desktop\library1.0\system.h
+	<iostream>
+	<string.h>
+	"Class.h"
+
+1512048959 source:c:\users\administrator\desktop\library1.0\user.cpp
+	<iostream>
+	<fstream>
+	<iostream>
+	<string>
+	"user.h"
+	"class.h"
+
+1513317481 source:c:\users\administrator\desktop\library1.0\main.cpp
+	<iostream>
+	<ostream>
+	<fstream>
+	<sstream>
+	<cstring>
+	<cstdlib>
+	"Class.h"
+	"Manager.h"
+	"System.h"
+	"User.h"
+
+1512442933 source:c:\users\administrator\desktop\library1.0\manager.cpp
+	<iostream>
+	<ostream>
+	<fstream>
+	<string>
+	<stdlib.h>
+	"class.h"
+	"manager.h"
+	"user.h"
+	"system.h"
+	<time.h>
+

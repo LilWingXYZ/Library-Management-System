@@ -1,0 +1,24 @@
+2017.10 30 20:29   第一阶段第一部分（查）————张文政
+//主要是某些函数（用户和书本的）命名有些重复，以及表示不清，所以分别进行了调整更改
+//people部分的查询也已经写好，但没有对应管理类和数据，没测试过，暂时不放出来
+//附件Search10_30.cpp
+
+void searchAllBooks();//无条件展示所有书籍
+void searchBookById(unsigned int bookId);//按书号查询书籍信息
+void searchBookByPeopleId(unsigned int peopleId);//按借书人序号查询书籍信息
+void searchBookByClass(int bookClass);//按书籍类别查询书籍信息
+void searchBookByPrice(float price1,float price2);//按价格 区间查询书籍信息
+void searchBookByName(char name[20]);//按名字查询书籍信息
+void searchBookByPublisher(char publisher[20]);//按出版社查询书籍信息
+void searchBookByAuthor(char author[8]);//按作者查询书籍信息
+void searchBookByPublishDate(char publishDate[8]);//按出版日期查询书籍信息
+void searchBookByBorrowTime(char borrowTime[10]);//按借出日期查询书籍信息
+int  searchInstanceOfBook(unsigned int bookId);//查询书号来返回某本书在文件里的distance
+
+void searchAllPeople();//无条件展示所有用户信息
+void searchPeopleById(unsigned int peopleId);//通过用户号查询用户信息
+void searchPeopleByRecentBorrowId(unsigned int recentBorrowId[10]);//暂时不考虑
+void searchPeopleByRank(int rank);//通过用户等级查询用户信息
+void searchPeopleByCredit(int credit);//通过信用等级查询用户信息
+int  searchInstanceOfPeople(unsigned int peopleId);//查询用户号来返回某用户在文件里的distance
+

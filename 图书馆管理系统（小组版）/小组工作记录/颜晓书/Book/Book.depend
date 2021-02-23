@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1509010288 source:f:\数据结构源码c++\book\bookmanagementio.cpp
+	<iostream>
+	<fstream>
+	<io.h>
+	<cmath>
+	"BookManagementIOHeader.h"
+
+1509010890 f:\数据结构源码c++\book\bookmanagementioheader.h
+	<cstring>
+	<iostream>
+	<io.h>
+	<sstream>
+	<fstream>
+	<cmath>
+
+1509011338 source:f:\数据结构源码c++\book\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+	"BookManageMentIOHeader.h"
+
+1509014203 source:c:\users\john\desktop\book\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+	"BookManageMentIOHeader.h"
+
+1509010890 c:\users\john\desktop\book\bookmanagementioheader.h
+	<cstring>
+	<iostream>
+	<io.h>
+	<sstream>
+	<fstream>
+	<cmath>
+

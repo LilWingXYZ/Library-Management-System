@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="algo4-3.cpp" open="1" top="0" tabpos="8">
+		<Cursor position="6592" topLine="184" />
+	</File>
+	<File name="algo4-3.h" open="1" top="0" tabpos="9">
+		<Cursor position="2355" topLine="52" />
+	</File>
+	<File name="algo4-4.cpp" open="1" top="0" tabpos="10">
+		<Cursor position="3167" topLine="78" />
+	</File>
+	<File name="bo2-6.cpp" open="1" top="0" tabpos="11">
+		<Cursor position="7036" topLine="0" />
+	</File>
+	<File name="bo4-2.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="5084" topLine="176" />
+	</File>
+	<File name="c1.h" open="1" top="0" tabpos="12">
+		<Cursor position="144" topLine="0" />
+	</File>
+	<File name="c2-5.h" open="1" top="0" tabpos="13">
+		<Cursor position="425" topLine="0" />
+	</File>
+	<File name="c4-2.h" open="1" top="0" tabpos="5">
+		<Cursor position="837" topLine="2" />
+	</File>
+	<File name="c4-3.h" open="1" top="0" tabpos="7">
+		<Cursor position="2797" topLine="60" />
+	</File>
+	<File name="first.cpp" open="1" top="1" tabpos="4">
+		<Cursor position="20702" topLine="689" />
+	</File>
+	<File name="first.h" open="1" top="0" tabpos="3">
+		<Cursor position="1316" topLine="51" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="118" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

@@ -1,0 +1,123 @@
+基本思路：修改realDelete标志位，然后记录distance表（储存在文件）.
+
+//删除表
+struct deleteList
+{
+	int distance;                   //查询返回的distance
+	char realDelete;                //真删除标志位
+};
+
+class RealDelete
+{
+	private：
+		vector<deleteList> del;
+	public:
+		RealDelete();
+		void addListItem(deleteList newItem);       //增加新表项
+		void deleteUsed(int distance);              //删除使用过的表项
+}
+
+RealDelete::RealDelete()
+{
+    int allDeleteList;
+    ifstream fin("realDeleteList.txt");
+    //ifstream fin("realDeleteList.dat",ios::in|ios::binary);
+    if(fin)
+    {
+        fin>>allDeleteList;
+        for(int i=0; i<allDeleteList; i++)
+        {
+            deleteList temp;
+            fin>>temp.distance>>temp.realDelete;
+            del.push_back(temp);
+        }
+        fin.close();
+    }
+}
+
+void RealDelete::addListItem(deleteList newItem)
+{
+    del.push_back(newItem);
+}
+
+
+
+
+void Library::DeleteBook(string bookname,string author)
+{
+    int pos = SearchBookPosWithAB(author,bookname);
+    if (pos!=-1)
+    {
+        data.erase(data.begin()+pos);
+        cout<<"删除图书成功!"<<endl;
+        return ;
+    }
+    else
+        cout<<"查无此书！\n";
+}
+
+
+//真删除
+#include <fstream>
+
+void realDeleteBookbyId(book *b, unsigned int bookId)
+{
+	    int distance = searchInstanceOfbook（bookId ）;  
+    if (distance>=0)
+    {
+	int choice;
+	cout<<"确定删除？ 1.删除 0.返回"<<endl;
+	cin>>choice;
+	if(choice==1)
+	{
+		b->isDelete = true; 
+		writeFile(*Book,filename,distance,2); 
+		cout<<"删除图书成功!"<<endl;
+        	return ;
+	}
+	else if(choice==0)
+	{
+		return ;
+	}
+    }
+    else
+        cout<<"没有查询到本书,无法删除!"<<endl;
+
+
+
+
+
+	ofstream fout;                                         //创建ofstream对象fout
+	fout.open("realDeleteList.dat",ios::app|ios::binary);  //以添加方式打开文件
+	if(!fout){
+		cout<< "File open error!" <<endl;              //文件打开失败
+	}
+	
+	
+	long location = fout.tellp();                          //取得写指针的位置
+	location = 10;
+	fout.seekp(location,ios::cur);                         //将指针移动到从当前数第10个字节处
+	fout.close();
+}
+
+
+
+
+//嵌入刘真的增加中								
+ifstream fin;                                            //创建ifstream对象fin
+fin.open("realDeleteList.dat",ios::in|ios::binary);     //打开文件
+if(!fout){
+	cout<< "File open error!" <<endl;                //文件打开失败
+}
+long n = 10;
+fin.read(del, n)
+
+long location = fin.tellg();                             //取得读指针
+location = 10L;
+fin.seekg(location,ios::beg);                            //将指针移动到从头数第10个字节处
+fin.close();
+
+
+
+
+

@@ -1,0 +1,1129 @@
+# depslib dependency file v1.0
+1512282126 source:f:\数据结构源码c++\librarymanagement 4.6\interfacemain.cpp
+	"DeleteOption.h"
+	"SearchOption.h"
+	"UpdateOption.h"
+	"AddOption.h"
+	"IdGenerator.h"
+	"Display.h"
+	"User.h"
+	<iomanip>
+	<iostream>
+
+1512270317 f:\数据结构源码c++\librarymanagement 4.6\bookmanagementioheader.h
+	<cstring>
+	<iostream>
+	<io.h>
+	<sstream>
+
+1512270483 f:\数据结构源码c++\librarymanagement 4.6\deleteoption.h
+	<iostream>
+	<iomanip>
+	<fstream>
+	<vector>
+	"windows.h"
+	"SearchOption.h"
+
+1512401830 f:\数据结构源码c++\librarymanagement 4.6\searchoption.h
+	"BookManagementIO.h"
+	<iomanip>
+
+1511227058 f:\数据结构源码c++\librarymanagement 4.6\bookmanagementio.h
+	<iostream>
+	<fstream>
+	<io.h>
+	<cmath>
+	"BookManagementIOHeader.h"
+
+1512270753 f:\数据结构源码c++\librarymanagement 4.6\updateoption.h
+	<iostream>
+	<fstream>
+	<cstring>
+	"IdGenerator.h"
+	"SearchOption.h"
+	<iomanip>
+	"windows.h"
+
+1512270515 f:\数据结构源码c++\librarymanagement 4.6\idgenerator.h
+	<cmath>
+	"SearchOption.h"
+	"DeleteOption.h"
+	<string>
+
+1512270555 f:\数据结构源码c++\librarymanagement 4.6\addoption.h
+	<iostream>
+	<fstream>
+	"BookManagementIO.h"
+	<malloc.h>
+	"IdGenerator.h"
+	<vector>
+	"windows.h"
+	"Display.h"
+	<iomanip>
+
+1512270531 f:\数据结构源码c++\librarymanagement 4.6\display.h
+	<iomanip>
+	<iostream>
+
+1512269441 source:f:\数据结构源码c++\librarymanagement 4.6\bookclass.cpp
+	<iostream>
+	"BookClass.h"
+
+1512269430 f:\数据结构源码c++\librarymanagement 4.6\bookclass.h
+	"SearchOption.h"
+	"Ltime.h"
+	<string>
+
+1512180262 f:\数据结构源码c++\librarymanagement 4.6\ltime.h
+	<string>
+
+1511602833 source:f:\数据结构源码c++\librarymanagement 4.6\ltime.cpp
+	<iostream>
+	"Ltime.h"
+	<string.h>
+	<iostream>
+	<time.h>
+	<stdlib.h>
+	<string.h>
+
+1512399648 source:f:\数据结构源码c++\librarymanagement 4.6\option.cpp
+	"Option.h"
+	<iostream>
+
+1512268975 f:\数据结构源码c++\librarymanagement 4.6\option.h
+	"AddOption.h"
+	"DeleteOption.h"
+	"UpdateOption.h"
+	"SearchOption.h"
+	<string>
+
+1512400543 source:f:\数据结构源码c++\librarymanagement 4.6\user.cpp
+	"User.h"
+	<iostream>
+
+1512281274 f:\数据结构源码c++\librarymanagement 4.6\user.h
+	"bookClass.h"
+	"Option.h"
+
+1512401743 source:f:\数据结构源码c++\librarymanagement 4.6\usertestmain.cpp
+	"DeleteOption.h"
+	"SearchOption.h"
+	"UpdateOption.h"
+	"AddOption.h"
+	"IdGenerator.h"
+	"Display.h"
+	"User.h"
+	<iostream>
+
+1512316515 source:f:\数据结构源码c++\librarymanagement 4.6\randombookpeoplefile.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<cstring>
+	<vector>
+	<stdlib.h>
+	<stdio.h>
+	"User.h"
+	<windows.h>
+
+1512269442 source:c:\users\aladerna\desktop\librarymanagement 4.6\bookclass.cpp
+	<iostream>
+	"BookClass.h"
+
+1512269432 c:\users\aladerna\desktop\librarymanagement 4.6\bookclass.h
+	"SearchOption.h"
+	"Ltime.h"
+	<string>
+
+1512438391 c:\users\aladerna\desktop\librarymanagement 4.6\searchoption.h
+	"BookManagementIO.h"
+	<iomanip>
+
+1512197407 c:\users\aladerna\desktop\librarymanagement 4.6\bookmanagementio.h
+	<iostream>
+	<fstream>
+	<io.h>
+	<cmath>
+	"BookManagementIOHeader.h"
+
+1512437758 c:\users\aladerna\desktop\librarymanagement 4.6\bookmanagementioheader.h
+	<cstring>
+	<iostream>
+	<io.h>
+	<sstream>
+
+1512180264 c:\users\aladerna\desktop\librarymanagement 4.6\ltime.h
+	<string>
+
+1511602834 source:c:\users\aladerna\desktop\librarymanagement 4.6\ltime.cpp
+	<iostream>
+	"Ltime.h"
+	<string.h>
+	<iostream>
+	<time.h>
+	<stdlib.h>
+	<string.h>
+
+1512399650 source:c:\users\aladerna\desktop\librarymanagement 4.6\option.cpp
+	"Option.h"
+	<iostream>
+
+1512268976 c:\users\aladerna\desktop\librarymanagement 4.6\option.h
+	"AddOption.h"
+	"DeleteOption.h"
+	"UpdateOption.h"
+	"SearchOption.h"
+	<string>
+
+1512270556 c:\users\aladerna\desktop\librarymanagement 4.6\addoption.h
+	<iostream>
+	<fstream>
+	"BookManagementIO.h"
+	<malloc.h>
+	"IdGenerator.h"
+	<vector>
+	"windows.h"
+	"Display.h"
+	<iomanip>
+
+1512437370 c:\users\aladerna\desktop\librarymanagement 4.6\idgenerator.h
+	<cmath>
+	"BookManagementIOHeader.h"
+	"SearchOption.h"
+	"DeleteOption.h"
+	<string>
+
+1512270484 c:\users\aladerna\desktop\librarymanagement 4.6\deleteoption.h
+	<iostream>
+	<iomanip>
+	<fstream>
+	<vector>
+	"windows.h"
+	"SearchOption.h"
+
+1512270532 c:\users\aladerna\desktop\librarymanagement 4.6\display.h
+	<iomanip>
+	<iostream>
+
+1512270754 c:\users\aladerna\desktop\librarymanagement 4.6\updateoption.h
+	<iostream>
+	<fstream>
+	<cstring>
+	"IdGenerator.h"
+	"SearchOption.h"
+	<iomanip>
+	"windows.h"
+
+1512434424 source:c:\users\aladerna\desktop\librarymanagement 4.6\user.cpp
+	"User.h"
+	<iostream>
+
+1512281276 c:\users\aladerna\desktop\librarymanagement 4.6\user.h
+	"bookClass.h"
+	"Option.h"
+
+1512438215 source:c:\users\aladerna\desktop\librarymanagement 4.6\usertestmain.cpp
+	"DeleteOption.h"
+	"SearchOption.h"
+	"UpdateOption.h"
+	"AddOption.h"
+	"IdGenerator.h"
+	"Display.h"
+	"User.h"
+	"StdIO.cpp"
+	<iostream>
+
+1512436930 source:c:\users\aladerna\desktop\librarymanagement 4.6\stdio.cpp
+	<iostream>
+	<string>
+	<sstream>
+	<cmath>
+	<cstdlib>
+	"SearchOption.h"
+
+1512436930 c:\users\aladerna\desktop\librarymanagement 4.6\stdio.cpp
+	<iostream>
+	<string>
+	<sstream>
+	<cmath>
+	<cstdlib>
+	"SearchOption.h"
+
+1512269442 source:c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.6\bookclass.cpp
+	<iostream>
+	"BookClass.h"
+
+1512269432 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.6\bookclass.h
+	"SearchOption.h"
+	"Ltime.h"
+	<string>
+
+1512438390 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.6\searchoption.h
+	"BookManagementIO.h"
+	<iomanip>
+
+1512197406 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.6\bookmanagementio.h
+	<iostream>
+	<fstream>
+	<io.h>
+	<cmath>
+	"BookManagementIOHeader.h"
+
+1512437758 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.6\bookmanagementioheader.h
+	<cstring>
+	<iostream>
+	<io.h>
+	<sstream>
+
+1512180264 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.6\ltime.h
+	<string>
+
+1511602834 source:c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.6\ltime.cpp
+	<iostream>
+	"Ltime.h"
+	<string.h>
+	<iostream>
+	<time.h>
+	<stdlib.h>
+	<string.h>
+
+1512804692 source:c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.6\option.cpp
+	"Option.h"
+	<iostream>
+
+1512268976 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.6\option.h
+	"AddOption.h"
+	"DeleteOption.h"
+	"UpdateOption.h"
+	"SearchOption.h"
+	<string>
+
+1512270556 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.6\addoption.h
+	<iostream>
+	<fstream>
+	"BookManagementIO.h"
+	<malloc.h>
+	"IdGenerator.h"
+	<vector>
+	"windows.h"
+	"Display.h"
+	<iomanip>
+
+1512437370 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.6\idgenerator.h
+	<cmath>
+	"BookManagementIOHeader.h"
+	"SearchOption.h"
+	"DeleteOption.h"
+	<string>
+
+1512805609 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.6\deleteoption.h
+	<iostream>
+	<iomanip>
+	<fstream>
+	<vector>
+	"windows.h"
+	"SearchOption.h"
+	"BookManageMentIOHeader.h"
+	"BookManagementIO.h"
+
+1512270532 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.6\display.h
+	<iomanip>
+	<iostream>
+
+1512270754 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.6\updateoption.h
+	<iostream>
+	<fstream>
+	<cstring>
+	"IdGenerator.h"
+	"SearchOption.h"
+	<iomanip>
+	"windows.h"
+
+1512436930 source:c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.6\stdio.cpp
+	<iostream>
+	<string>
+	<sstream>
+	<cmath>
+	<cstdlib>
+	"SearchOption.h"
+
+1512809058 source:c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.6\user.cpp
+	"User.h"
+	"StdIO.h"
+	<iostream>
+
+1512281276 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.6\user.h
+	"bookClass.h"
+	"Option.h"
+
+1512808667 source:c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.6\usertestmain.cpp
+	"DeleteOption.h"
+	"SearchOption.h"
+	"UpdateOption.h"
+	"AddOption.h"
+	"IdGenerator.h"
+	"Display.h"
+	"User.h"
+	"StdIO.cpp"
+	"FuzzyQuery.h"
+	<iostream>
+
+1512799985 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.6\stdio.cpp
+	<iostream>
+	<string>
+	<sstream>
+	<cmath>
+	<cstdlib>
+	<conio.h>
+	"SearchOption.h"
+
+1512488005 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.6\fuzzyquery.h
+	"BookManagementIO.h"
+	"BookManagementIOHeader.h"
+	"SearchOption.h"
+	<string>
+	<regex>
+	<map>
+
+1512808347 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.6\stdio.h
+	<iostream>
+	<string>
+	<sstream>
+	<cmath>
+	<cstdlib>
+	<conio.h>
+	"SearchOption.h"
+
+1519959014 source:f:\数据结构源码c++\librarymanagement 4.705\librarymanagement 4.6\bookclass.cpp
+	<iostream>
+	"BookClass.h"
+
+1512817307 f:\数据结构源码c++\librarymanagement 4.705\librarymanagement 4.6\bookclass.h
+	"SearchOption.h"
+	"Ltime.h"
+	<string>
+
+1512438390 f:\数据结构源码c++\librarymanagement 4.705\librarymanagement 4.6\searchoption.h
+	"BookManagementIO.h"
+	<iomanip>
+
+1512197406 f:\数据结构源码c++\librarymanagement 4.705\librarymanagement 4.6\bookmanagementio.h
+	<iostream>
+	<fstream>
+	<io.h>
+	<cmath>
+	"BookManagementIOHeader.h"
+
+1512437758 f:\数据结构源码c++\librarymanagement 4.705\librarymanagement 4.6\bookmanagementioheader.h
+	<cstring>
+	<iostream>
+	<io.h>
+	<sstream>
+
+1512811195 f:\数据结构源码c++\librarymanagement 4.705\librarymanagement 4.6\ltime.h
+	<string>
+
+1512816146 source:f:\数据结构源码c++\librarymanagement 4.705\librarymanagement 4.6\ltime.cpp
+	<iostream>
+	"Ltime.h"
+	<string.h>
+	<iostream>
+	<time.h>
+	<stdlib.h>
+	<string.h>
+
+1512804692 source:f:\数据结构源码c++\librarymanagement 4.705\librarymanagement 4.6\option.cpp
+	"Option.h"
+	<iostream>
+
+1512268976 f:\数据结构源码c++\librarymanagement 4.705\librarymanagement 4.6\option.h
+	"AddOption.h"
+	"DeleteOption.h"
+	"UpdateOption.h"
+	"SearchOption.h"
+	<string>
+
+1512270556 f:\数据结构源码c++\librarymanagement 4.705\librarymanagement 4.6\addoption.h
+	<iostream>
+	<fstream>
+	"BookManagementIO.h"
+	<malloc.h>
+	"IdGenerator.h"
+	<vector>
+	"windows.h"
+	"Display.h"
+	<iomanip>
+
+1512437370 f:\数据结构源码c++\librarymanagement 4.705\librarymanagement 4.6\idgenerator.h
+	<cmath>
+	"BookManagementIOHeader.h"
+	"SearchOption.h"
+	"DeleteOption.h"
+	<string>
+
+1512805609 f:\数据结构源码c++\librarymanagement 4.705\librarymanagement 4.6\deleteoption.h
+	<iostream>
+	<iomanip>
+	<fstream>
+	<vector>
+	"windows.h"
+	"SearchOption.h"
+	"BookManageMentIOHeader.h"
+	"BookManagementIO.h"
+
+1512270532 f:\数据结构源码c++\librarymanagement 4.705\librarymanagement 4.6\display.h
+	<iomanip>
+	<iostream>
+
+1517537262 f:\数据结构源码c++\librarymanagement 4.705\librarymanagement 4.6\updateoption.h
+	<iostream>
+	<fstream>
+	<cstring>
+	"IdGenerator.h"
+	"SearchOption.h"
+	<iomanip>
+	"windows.h"
+
+1519959052 source:f:\数据结构源码c++\librarymanagement 4.705\librarymanagement 4.6\user.cpp
+	"User.h"
+	"StdIO.h"
+	<iostream>
+
+1519958292 f:\数据结构源码c++\librarymanagement 4.705\librarymanagement 4.6\user.h
+	"bookClass.h"
+	"Option.h"
+
+1512808347 f:\数据结构源码c++\librarymanagement 4.705\librarymanagement 4.6\stdio.h
+	<iostream>
+	<string>
+	<sstream>
+	<cmath>
+	<cstdlib>
+	<conio.h>
+	"SearchOption.h"
+
+1512438196 source:f:\数据结构源码c++\librarymanagement 4.705\librarymanagement 4.6\randombookpeoplefile.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<cstring>
+	<vector>
+	<stdlib.h>
+	<stdio.h>
+	"User.h"
+	<windows.h>
+
+1520306020 source:f:\数据结构源码c++\librarymanagement 4.705\librarymanagement 4.6\usertestmain.cpp
+	"DeleteOption.h"
+	"SearchOption.h"
+	"UpdateOption.h"
+	"AddOption.h"
+	"IdGenerator.h"
+	"Display.h"
+	"User.h"
+	"StdIO.cpp"
+	"FuzzyQuery.h"
+	<iostream>
+
+1512799985 f:\数据结构源码c++\librarymanagement 4.705\librarymanagement 4.6\stdio.cpp
+	<iostream>
+	<string>
+	<sstream>
+	<cmath>
+	<cstdlib>
+	<conio.h>
+	"SearchOption.h"
+
+1512488005 f:\数据结构源码c++\librarymanagement 4.705\librarymanagement 4.6\fuzzyquery.h
+	"BookManagementIO.h"
+	"BookManagementIOHeader.h"
+	"SearchOption.h"
+	<string>
+	<regex>
+	<map>
+
+1519959014 source:c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.705\librarymanagement 4.6\bookclass.cpp
+	<iostream>
+	"BookClass.h"
+
+1512878985 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.705\librarymanagement 4.6\bookclass.h
+	"SearchOption.h"
+	"Ltime.h"
+	<string>
+
+1513490382 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.705\librarymanagement 4.6\searchoption.h
+	"BookManagementIO.h"
+	"StdIO.h"
+	<iomanip>
+
+1512878967 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.705\librarymanagement 4.6\bookmanagementio.h
+	<iostream>
+	<fstream>
+	<io.h>
+	<cmath>
+	"BookManagementIOHeader.h"
+
+1512886497 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.705\librarymanagement 4.6\bookmanagementioheader.h
+	<cstring>
+	<iostream>
+	<io.h>
+	<sstream>
+
+1512895305 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.705\librarymanagement 4.6\stdio.h
+	<iostream>
+	<string>
+	<sstream>
+	<cmath>
+	<cstdlib>
+	<conio.h>
+	<windows.h>
+
+1512879006 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.705\librarymanagement 4.6\ltime.h
+	<string>
+
+1512816146 source:c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.705\librarymanagement 4.6\ltime.cpp
+	<iostream>
+	"Ltime.h"
+	<string.h>
+	<iostream>
+	<time.h>
+	<stdlib.h>
+	<string.h>
+
+1512804692 source:c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.705\librarymanagement 4.6\option.cpp
+	"Option.h"
+	<iostream>
+
+1512879028 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.705\librarymanagement 4.6\option.h
+	"AddOption.h"
+	"DeleteOption.h"
+	"UpdateOption.h"
+	"SearchOption.h"
+	<string>
+
+1512886462 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.705\librarymanagement 4.6\addoption.h
+	<iostream>
+	<fstream>
+	"BookManagementIO.h"
+	<malloc.h>
+	"IdGenerator.h"
+	<vector>
+	"windows.h"
+	"Display.h"
+	<iomanip>
+
+1512886568 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.705\librarymanagement 4.6\idgenerator.h
+	<cmath>
+	"BookManagementIOHeader.h"
+	"SearchOption.h"
+	"DeleteOption.h"
+	<string>
+
+1512886522 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.705\librarymanagement 4.6\deleteoption.h
+	<iostream>
+	<iomanip>
+	<fstream>
+	<vector>
+	"windows.h"
+	"SearchOption.h"
+	"BookManageMentIOHeader.h"
+	"BookManagementIO.h"
+
+1512886794 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.705\librarymanagement 4.6\display.h
+	<iomanip>
+	<iostream>
+
+1512886768 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.705\librarymanagement 4.6\updateoption.h
+	<iostream>
+	<fstream>
+	<cstring>
+	"IdGenerator.h"
+	"SearchOption.h"
+	<iomanip>
+	"windows.h"
+
+1513491392 source:c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.705\librarymanagement 4.6\user.cpp
+	"User.h"
+	"StdIO.h"
+	"SuperManager.h"
+	<iostream>
+
+1513491439 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.705\librarymanagement 4.6\user.h
+	"bookClass.h"
+	"Option.h"
+
+1513492264 source:c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.705\librarymanagement 4.6\usertestmain.cpp
+	"DeleteOption.h"
+	"SearchOption.h"
+	"UpdateOption.h"
+	"AddOption.h"
+	"IdGenerator.h"
+	"Display.h"
+	"User.h"
+	"FuzzyQuery.h"
+	"SuperManager.h"
+	"StdIO.h"
+	<iostream>
+
+1512799985 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.705\librarymanagement 4.6\stdio.cpp
+	<iostream>
+	<string>
+	<sstream>
+	<cmath>
+	<cstdlib>
+	<conio.h>
+	"SearchOption.h"
+
+1512878998 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.705\librarymanagement 4.6\fuzzyquery.h
+	"BookManagementIO.h"
+	"BookManagementIOHeader.h"
+	"SearchOption.h"
+	<string>
+	<regex>
+	<map>
+
+1513492551 source:c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.705\librarymanagement 4.6\supermanager.cpp
+	<iostream>
+	"SuperManager.h"
+	"AddOption.h"
+	"DeleteOption.h"
+	"StdIO.h"
+	"BookManagementIO.h"
+	"BookManagementIOHeader.h"
+
+1513482784 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.705\librarymanagement 4.6\supermanager.h
+	"Manager.h"
+
+1512885648 c:\users\cong's pc\desktop\新建文件夹\librarymanagement 4.705\librarymanagement 4.6\manager.h
+	"User.h"
+
+1512816146 source:c:\users\administrator\desktop\librarymanagement 5.01\librarymanagement 4.6\ltime.cpp
+	<iostream>
+	"Ltime.h"
+	<string.h>
+	<iostream>
+	<time.h>
+	<stdlib.h>
+	<string.h>
+
+1512879006 c:\users\administrator\desktop\librarymanagement 5.01\librarymanagement 4.6\ltime.h
+	<string>
+
+1512804692 source:c:\users\administrator\desktop\librarymanagement 5.01\librarymanagement 4.6\option.cpp
+	"Option.h"
+	<iostream>
+
+1512879028 c:\users\administrator\desktop\librarymanagement 5.01\librarymanagement 4.6\option.h
+	"AddOption.h"
+	"DeleteOption.h"
+	"UpdateOption.h"
+	"SearchOption.h"
+	<string>
+
+1512886462 c:\users\administrator\desktop\librarymanagement 5.01\librarymanagement 4.6\addoption.h
+	<iostream>
+	<fstream>
+	"BookManagementIO.h"
+	<malloc.h>
+	"IdGenerator.h"
+	<vector>
+	"windows.h"
+	"Display.h"
+	<iomanip>
+
+1512878967 c:\users\administrator\desktop\librarymanagement 5.01\librarymanagement 4.6\bookmanagementio.h
+	<iostream>
+	<fstream>
+	<io.h>
+	<cmath>
+	"BookManagementIOHeader.h"
+
+1512886497 c:\users\administrator\desktop\librarymanagement 5.01\librarymanagement 4.6\bookmanagementioheader.h
+	<cstring>
+	<iostream>
+	<io.h>
+	<sstream>
+
+1512886568 c:\users\administrator\desktop\librarymanagement 5.01\librarymanagement 4.6\idgenerator.h
+	<cmath>
+	"BookManagementIOHeader.h"
+	"SearchOption.h"
+	"DeleteOption.h"
+	<string>
+
+1513526061 c:\users\administrator\desktop\librarymanagement 5.01\librarymanagement 4.6\searchoption.h
+	"BookManagementIO.h"
+	"StdIO.h"
+	<iomanip>
+
+1512895305 c:\users\administrator\desktop\librarymanagement 5.01\librarymanagement 4.6\stdio.h
+	<iostream>
+	<string>
+	<sstream>
+	<cmath>
+	<cstdlib>
+	<conio.h>
+	<windows.h>
+
+1512886522 c:\users\administrator\desktop\librarymanagement 5.01\librarymanagement 4.6\deleteoption.h
+	<iostream>
+	<iomanip>
+	<fstream>
+	<vector>
+	"windows.h"
+	"SearchOption.h"
+	"BookManageMentIOHeader.h"
+	"BookManagementIO.h"
+
+1512886794 c:\users\administrator\desktop\librarymanagement 5.01\librarymanagement 4.6\display.h
+	<iomanip>
+	<iostream>
+
+1512886768 c:\users\administrator\desktop\librarymanagement 5.01\librarymanagement 4.6\updateoption.h
+	<iostream>
+	<fstream>
+	<cstring>
+	"IdGenerator.h"
+	"SearchOption.h"
+	<iomanip>
+	"windows.h"
+
+1513525769 source:c:\users\administrator\desktop\librarymanagement 5.01\librarymanagement 4.6\supermanager.cpp
+	<iostream>
+	"SuperManager.h"
+	"AddOption.h"
+	"DeleteOption.h"
+	"StdIO.h"
+	"BookManagementIO.h"
+	"BookManagementIOHeader.h"
+
+1513482784 c:\users\administrator\desktop\librarymanagement 5.01\librarymanagement 4.6\supermanager.h
+	"Manager.h"
+
+1512885648 c:\users\administrator\desktop\librarymanagement 5.01\librarymanagement 4.6\manager.h
+	"User.h"
+
+1513491439 c:\users\administrator\desktop\librarymanagement 5.01\librarymanagement 4.6\user.h
+	"bookClass.h"
+	"Option.h"
+
+1512878985 c:\users\administrator\desktop\librarymanagement 5.01\librarymanagement 4.6\bookclass.h
+	"SearchOption.h"
+	"Ltime.h"
+	<string>
+
+1513521978 source:c:\users\administrator\desktop\librarymanagement 5.01\librarymanagement 4.6\user.cpp
+	"User.h"
+	"StdIO.h"
+	"SuperManager.h"
+	<iostream>
+
+1513521774 source:c:\users\administrator\desktop\librarymanagement 5.01\librarymanagement 4.6\usertestmain.cpp
+	"DeleteOption.h"
+	"SearchOption.h"
+	"UpdateOption.h"
+	"AddOption.h"
+	"IdGenerator.h"
+	"Display.h"
+	"User.h"
+	"FuzzyQuery.h"
+	"SuperManager.h"
+	"StdIO.h"
+	<iostream>
+
+1512878998 c:\users\administrator\desktop\librarymanagement 5.01\librarymanagement 4.6\fuzzyquery.h
+	"BookManagementIO.h"
+	"BookManagementIOHeader.h"
+	"SearchOption.h"
+	<string>
+	<regex>
+	<map>
+
+1512816146 source:c:\users\administrator\desktop\librarymanagement 5.03\librarymanagement 5.03\ltime.cpp
+	<iostream>
+	"Ltime.h"
+	<string.h>
+	<iostream>
+	<time.h>
+	<stdlib.h>
+	<string.h>
+
+1512879006 c:\users\administrator\desktop\librarymanagement 5.03\librarymanagement 5.03\ltime.h
+	<string>
+
+1512804692 source:c:\users\administrator\desktop\librarymanagement 5.03\librarymanagement 5.03\option.cpp
+	"Option.h"
+	<iostream>
+
+1512879028 c:\users\administrator\desktop\librarymanagement 5.03\librarymanagement 5.03\option.h
+	"AddOption.h"
+	"DeleteOption.h"
+	"UpdateOption.h"
+	"SearchOption.h"
+	<string>
+
+1512886462 c:\users\administrator\desktop\librarymanagement 5.03\librarymanagement 5.03\addoption.h
+	<iostream>
+	<fstream>
+	"BookManagementIO.h"
+	<malloc.h>
+	"IdGenerator.h"
+	<vector>
+	"windows.h"
+	"Display.h"
+	<iomanip>
+
+1512878967 c:\users\administrator\desktop\librarymanagement 5.03\librarymanagement 5.03\bookmanagementio.h
+	<iostream>
+	<fstream>
+	<io.h>
+	<cmath>
+	"BookManagementIOHeader.h"
+
+1512886497 c:\users\administrator\desktop\librarymanagement 5.03\librarymanagement 5.03\bookmanagementioheader.h
+	<cstring>
+	<iostream>
+	<io.h>
+	<sstream>
+
+1512886568 c:\users\administrator\desktop\librarymanagement 5.03\librarymanagement 5.03\idgenerator.h
+	<cmath>
+	"BookManagementIOHeader.h"
+	"SearchOption.h"
+	"DeleteOption.h"
+	<string>
+
+1513645164 c:\users\administrator\desktop\librarymanagement 5.03\librarymanagement 5.03\searchoption.h
+	"BookManagementIO.h"
+	"StdIO.h"
+	<iomanip>
+
+1513646452 c:\users\administrator\desktop\librarymanagement 5.03\librarymanagement 5.03\stdio.h
+	<iostream>
+	<string>
+	<sstream>
+	<cmath>
+	<cstdlib>
+	<conio.h>
+	<windows.h>
+
+1512886522 c:\users\administrator\desktop\librarymanagement 5.03\librarymanagement 5.03\deleteoption.h
+	<iostream>
+	<iomanip>
+	<fstream>
+	<vector>
+	"windows.h"
+	"SearchOption.h"
+	"BookManageMentIOHeader.h"
+	"BookManagementIO.h"
+
+1513646191 c:\users\administrator\desktop\librarymanagement 5.03\librarymanagement 5.03\display.h
+	<iomanip>
+	<iostream>
+
+1512886768 c:\users\administrator\desktop\librarymanagement 5.03\librarymanagement 5.03\updateoption.h
+	<iostream>
+	<fstream>
+	<cstring>
+	"IdGenerator.h"
+	"SearchOption.h"
+	<iomanip>
+	"windows.h"
+
+1513525769 source:c:\users\administrator\desktop\librarymanagement 5.03\librarymanagement 5.03\supermanager.cpp
+	<iostream>
+	"SuperManager.h"
+	"AddOption.h"
+	"DeleteOption.h"
+	"StdIO.h"
+	"BookManagementIO.h"
+	"BookManagementIOHeader.h"
+
+1513482784 c:\users\administrator\desktop\librarymanagement 5.03\librarymanagement 5.03\supermanager.h
+	"Manager.h"
+
+1512885648 c:\users\administrator\desktop\librarymanagement 5.03\librarymanagement 5.03\manager.h
+	"User.h"
+
+1513491439 c:\users\administrator\desktop\librarymanagement 5.03\librarymanagement 5.03\user.h
+	"bookClass.h"
+	"Option.h"
+
+1512878985 c:\users\administrator\desktop\librarymanagement 5.03\librarymanagement 5.03\bookclass.h
+	"SearchOption.h"
+	"Ltime.h"
+	<string>
+
+1513521978 source:c:\users\administrator\desktop\librarymanagement 5.03\librarymanagement 5.03\user.cpp
+	"User.h"
+	"StdIO.h"
+	"SuperManager.h"
+	<iostream>
+
+1513647081 source:c:\users\administrator\desktop\librarymanagement 5.03\librarymanagement 5.03\usertestmain.cpp
+	"DeleteOption.h"
+	"SearchOption.h"
+	"UpdateOption.h"
+	"AddOption.h"
+	"IdGenerator.h"
+	"Display.h"
+	"User.h"
+	"FuzzyQuery.h"
+	"SuperManager.h"
+	"StdIO.h"
+	<iostream>
+
+1512878998 c:\users\administrator\desktop\librarymanagement 5.03\librarymanagement 5.03\fuzzyquery.h
+	"BookManagementIO.h"
+	"BookManagementIOHeader.h"
+	"SearchOption.h"
+	<string>
+	<regex>
+	<map>
+
+1512816146 source:e:\海大\c++\新建文件夹\librarymanagement 5.04\ltime.cpp
+	<iostream>
+	"Ltime.h"
+	<string.h>
+	<iostream>
+	<time.h>
+	<stdlib.h>
+	<string.h>
+
+1512879006 e:\海大\c++\新建文件夹\librarymanagement 5.04\ltime.h
+	<string>
+
+1512804692 source:e:\海大\c++\新建文件夹\librarymanagement 5.04\option.cpp
+	"Option.h"
+	<iostream>
+
+1512879028 e:\海大\c++\新建文件夹\librarymanagement 5.04\option.h
+	"AddOption.h"
+	"DeleteOption.h"
+	"UpdateOption.h"
+	"SearchOption.h"
+	<string>
+
+1513866848 e:\海大\c++\新建文件夹\librarymanagement 5.04\addoption.h
+	<iostream>
+	<fstream>
+	"BookManagementIO.h"
+	<malloc.h>
+	"IdGenerator.h"
+	<vector>
+	"windows.h"
+	"Display.h"
+	"StdIO.h"
+	<iomanip>
+
+1512878967 e:\海大\c++\新建文件夹\librarymanagement 5.04\bookmanagementio.h
+	<iostream>
+	<fstream>
+	<io.h>
+	<cmath>
+	"BookManagementIOHeader.h"
+
+1512886497 e:\海大\c++\新建文件夹\librarymanagement 5.04\bookmanagementioheader.h
+	<cstring>
+	<iostream>
+	<io.h>
+	<sstream>
+
+1512886568 e:\海大\c++\新建文件夹\librarymanagement 5.04\idgenerator.h
+	<cmath>
+	"BookManagementIOHeader.h"
+	"SearchOption.h"
+	"DeleteOption.h"
+	<string>
+
+1513862393 e:\海大\c++\新建文件夹\librarymanagement 5.04\searchoption.h
+	"BookManagementIO.h"
+	"StdIO.h"
+	<iomanip>
+
+1513862706 e:\海大\c++\新建文件夹\librarymanagement 5.04\stdio.h
+	<iostream>
+	<string>
+	<sstream>
+	<cmath>
+	<cstdlib>
+	<conio.h>
+	<windows.h>
+
+1513865939 e:\海大\c++\新建文件夹\librarymanagement 5.04\deleteoption.h
+	<iostream>
+	<iomanip>
+	<fstream>
+	<vector>
+	"windows.h"
+	"SearchOption.h"
+	"StdIO.h"
+	"BookManageMentIOHeader.h"
+	"BookManagementIO.h"
+
+1513646191 e:\海大\c++\新建文件夹\librarymanagement 5.04\display.h
+	<iomanip>
+	<iostream>
+
+1512886768 e:\海大\c++\新建文件夹\librarymanagement 5.04\updateoption.h
+	<iostream>
+	<fstream>
+	<cstring>
+	"IdGenerator.h"
+	"SearchOption.h"
+	<iomanip>
+	"windows.h"
+
+1513521978 source:e:\海大\c++\新建文件夹\librarymanagement 5.04\user.cpp
+	"User.h"
+	"StdIO.h"
+	"SuperManager.h"
+	<iostream>
+
+1513491439 e:\海大\c++\新建文件夹\librarymanagement 5.04\user.h
+	"bookClass.h"
+	"Option.h"
+
+1512878985 e:\海大\c++\新建文件夹\librarymanagement 5.04\bookclass.h
+	"SearchOption.h"
+	"Ltime.h"
+	<string>
+
+1513482784 e:\海大\c++\新建文件夹\librarymanagement 5.04\supermanager.h
+	"Manager.h"
+
+1512885648 e:\海大\c++\新建文件夹\librarymanagement 5.04\manager.h
+	"User.h"
+
+1513865384 source:e:\海大\c++\新建文件夹\librarymanagement 5.04\supermanager.cpp
+	<iostream>
+	"SuperManager.h"
+	"AddOption.h"
+	"DeleteOption.h"
+	"StdIO.h"
+	"BookManagementIO.h"
+	"BookManagementIOHeader.h"
+
+1513865218 source:e:\海大\c++\新建文件夹\librarymanagement 5.04\usertestmain.cpp
+	"DeleteOption.h"
+	"SearchOption.h"
+	"UpdateOption.h"
+	"AddOption.h"
+	"IdGenerator.h"
+	"Display.h"
+	"User.h"
+	"FuzzyQuery.h"
+	"SuperManager.h"
+	"StdIO.h"
+	<iostream>
+
+1512878998 e:\海大\c++\新建文件夹\librarymanagement 5.04\fuzzyquery.h
+	"BookManagementIO.h"
+	"BookManagementIOHeader.h"
+	"SearchOption.h"
+	<string>
+	<regex>
+	<map>
+

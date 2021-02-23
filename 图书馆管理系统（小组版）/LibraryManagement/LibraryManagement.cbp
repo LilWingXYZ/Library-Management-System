@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LibraryManagement" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/LibraryManagement" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/LibraryManagement" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="AddOption.h" />
+		<Unit filename="BookClass.cpp" />
+		<Unit filename="BookClass.h" />
+		<Unit filename="BookManagementIO.h" />
+		<Unit filename="BookManagementIOHeader.h" />
+		<Unit filename="CreateTestFile.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="DeleteOption.h" />
+		<Unit filename="Display.h" />
+		<Unit filename="FuzzyQuery.h" />
+		<Unit filename="IdGenerator.h" />
+		<Unit filename="LogUtil.h" />
+		<Unit filename="Ltime.cpp" />
+		<Unit filename="Ltime.h" />
+		<Unit filename="Manager.h" />
+		<Unit filename="Option.cpp" />
+		<Unit filename="Option.h" />
+		<Unit filename="SearchOption.h" />
+		<Unit filename="StdIO.h" />
+		<Unit filename="SuperManager.cpp" />
+		<Unit filename="SuperManager.h" />
+		<Unit filename="UpdateOption.h" />
+		<Unit filename="User.cpp" />
+		<Unit filename="User.h" />
+		<Unit filename="UserTestMain.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

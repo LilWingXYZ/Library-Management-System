@@ -1,0 +1,47 @@
+更新:2017/10/21
+typedef struct{
+	unsigned int bookId;//identify number for books
+	unsigned int peopleId;//indentify number for readers
+	int bookClass;//书籍分类
+	float price;//价格
+	char bookName[20];//书名
+	char publisher[20];//出版社
+	char author[20];//作者
+	char publishDate[9];//出版年份
+	char borrowTime[11];//time of lending the book,year xxxx month xx date xx hour xx
+	char borrowFlag;//借出标志位
+	char isReservedFlag;//预定标志位
+	char isPreservedFlag;//保存本标志位
+	char isLated;//是否逾期
+	char isDeleted;//whether the record is delated(false as default)
+	char isRealDelete;//if the record is real deleted(false as default, setting as "ture" only); 
+}book;
+typedef struct{
+	unsigned int peopleId;//借书人编号
+	unsigned int recentBorrowId[10];//最近借阅书籍编号
+	unsigned int booksBorrowed[5];//已经借阅的书籍
+	char password[10];//password for the user
+	int level;//借书人级别
+	int credit;//信用点
+	char peopleName[20];//people's name
+	char isDeleted;//whether the record is delated(false as default)
+	char isRealDeleted;//is the record real
+}people;
+当前public函数：
+int writeFile(book writeMessage,string fname,int distance,int mode)//写文件
+int readFile(book returnInfo[10],string fname,int distance,int mode)//读文件
+int createFile(string fname)//创建文件
+int turncateFile(string fname)//删除文件
+int currentFileSize(string fname)//获取文件长度并返回(字节)
+unsigned int hashOperation(char *arr,int arrlength,int hashLength)//进行哈希string getFilePath(string fname)//获取同名文件路径(之前以带路径的方式存储过)
+hashOperation函数正在检测
+*	writeFile()mode参数：
+1 文件指针从头开始、2文件指针指向从头开始之后的第distance*sizeof(book)字节的位置 3、文件指针指向当前位置的第distance*sizeof(book)字节的位置，4、文件指针指向当前位置的distance的绝对值*sizeof(book)之前字节的位置，5、在文件末尾追加新内容
+(当前问题：发生截断)
+*	readFile()mode参数：
+1 文件指针从头开始、2文件指针指向从头开始之后的第distance*sizeof(book)字节的位置 3、文件指针指向当前位置的第distance*sizeof(book)字节的位置，4、文件指针指向当前位置的distance的绝对值*sizeof(book)之前字节的位置
+
+*	readFile()函数中返回的数组，如果已经读完文件，将填充为:unsigned int/int类型填充0,char类型填充'#'
+
+以上函数返回值为一int型数据：
+-6 文件存在、 -5 mode非法、-4 文件已经读完、-3 路径不存在、 -2 文件不存在、 -1 文件打开失败、0 成功 、1 读失败、 2 写失败、 3文件名为空 、4 文件删除失败 、 5 文件创建失败 、 6 文件被占用

@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1509111182 source:c:\users\john\desktop\delete\bookmanagementio.cpp
+	<iostream>
+	<fstream>
+	<io.h>
+	<cmath>
+	"BookManagementIOHeader.h"
+
+1509115228 c:\users\john\desktop\delete\bookmanagementioheader.h
+	<cstring>
+	<iostream>
+	<io.h>
+	<sstream>
+	<fstream>
+	<cmath>
+
+1509158062 source:c:\users\john\desktop\delete\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	"BookManageMentIOHeader.h"
+
+1509111182 source:c:\users\john\desktop\uml面向对象分析\图书馆管理系统\个人工作记录\徐云哲\测试工程\delete\bookmanagementio.cpp
+	<iostream>
+	<fstream>
+	<io.h>
+	<cmath>
+	"BookManagementIOHeader.h"
+
+1509115228 c:\users\john\desktop\uml面向对象分析\图书馆管理系统\个人工作记录\徐云哲\测试工程\delete\bookmanagementioheader.h
+	<cstring>
+	<iostream>
+	<io.h>
+	<sstream>
+	<fstream>
+	<cmath>
+

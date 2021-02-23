@@ -1,0 +1,186 @@
+2017.10.26 18:44   第一阶段（改）————颜晓书
+
+--------------------------------------------
+修改内容：
+部分函数名和参数名写错，已改正
+参数文件char *filename，改成string filename
+--------------------------------------------
+
+修改书籍信息的方式分为两类：
+
+-----------单次单个属性修改---------------------------------------------------------
+总体框架：
+bool updateBook_(string filename,book *Book,"要更新的信息" ){
+
+	//filename书本信息所在文件，Book要修改的书本记录指针,第三个参数为传入的更新的信息
+	//返回值为bool类型，true为修改成功，false修改失败
+
+	if（sizeof（"要更新的信息"）<= maxBytes){
+
+		int distance = searchInstanceOfbook（Book->bookId);//根据查询函数定位Book在文件中的位置
+		Book->对应更新之前信息 = "要更新的信息";
+		
+		writeFile(*Book,filename,distance,1);//调用BookClassIO类的writeFile函数，更新信息
+		return true;//返回修改值
+                                                                  
+
+	}
+
+	
+	return false;//否则修改失败
+
+}
+
+1：修改书籍编号（bookId）
+
+函数：bool updateBookId(string filename,book *Book,int BookId);
+
+2：修改借书人编号（peopleId）
+
+函数：bool updateBookPeopleId(string filename,book *Book,int PeopleId);
+
+3：修改书籍分类（bookClass）
+
+函数：bool updateBookClass(string filename,book *Book,int PeopleId);
+
+4：修改书籍价格（price）
+
+函数：bool updateBookPrice(string filename,book *Book,float Price);
+
+5：修改书籍名称（name）
+
+函数：bool updateBookName(string filename,book *Book,char *Name);
+
+6：修改书籍出版社（publisher）
+
+函数：bool updateBookPublisher(string filename,book *Book,char *Publisher);
+
+7：修改书籍作者（author）
+
+函数：bool updateBookAuthor(string filename,book *Book,char *Author);
+
+8：修改书籍出版年份（publishDate）
+
+函数：bool updateBookPublishDate(string filename,book *Book,char *PublishDate);
+
+9：修改书籍借出时间（borrowTime）
+
+函数：bool updateBookBorrowTime(string filename,book *Book,char *BorrowTime);
+
+10：修改借出标志位（borrowFlag）
+
+函数：bool updateBookBorrowFlag(string filename,book *Book,bool borrowFlag);
+
+11：修改预定标志位（isReservedFlag）
+
+函数：bool updateBookReservedFlag(string filename,book *Book,bool ReservedFlag);
+
+12：修改保存本标志位（isPreservedFlag）
+
+函数：bool updateBookPreservedFlag(string filename,book *Book,bool PreservedFlag);
+
+13：修改逾期标志位（isLated）
+
+函数：bool updateBookLatedFlag(string filename,book *Book,bool LatedFlag);
+
+14：修改删除标志位（isDeleted）
+
+函数：bool updateBookDeletedFlag(string filename,book *Book,bool DeletedFlag);
+
+15:修改真删除标志位（isRealDeleted）
+
+函数：bool updateBookRealDeletedFlag(string filename,book *Book,bool RealDeletedFlag);
+
+
+
+-----------连续多次修改---------------------------------------------------------
+
+ void updateBook(string filename,book *Book,int index ){
+
+       //filena书本信息所在文件，Book要修改的书本记录指针
+       //index修改书本信息的类别：1,bookId 2,peopleId 3,bookClass 4,price 5,name  6,publisher 7,author 8,publishDate 9,borrowTime 10,borrowFlag 11,isReservedFlag 12,isPreservedFlag 13,isLated 14,isDeleted;
+       //返回类型为布尔值，ture代表修改成功，false代表修改失败
+
+       //通过switch_case自定义修改,以及index可调用上述单次修改函数
+
+}
+
+
+修改借书人信息的方式分为两类：（与上述类似）
+
+-----------单次单个属性修改---------------------------------------------------------
+总体框架：
+bool updatePeople_(string filename,people *People,"要更新的信息" ){
+
+	//filename书本信息所在文件，Book要修改的书本记录指针,第三个参数为传入的更新的信息
+	//返回值为bool类型，true为修改成功，false修改失败
+
+	if（sizeof（"要更新的信息"）<= maxBytes){
+
+		int distance = searchInstanceOfPeople（People->peopleId);//根据查询函数定位Book在文件中的位置
+		Book->对应更新之前信息 = "要更新的信息";
+		
+		writeFile(*People,filename,distance,1);//调用BookClassIO类的writeFile函数，更新信息
+		return true;//返回修改值
+                                                                  
+
+	}
+
+	
+	return false;//否则修改失败
+
+}
+
+1,修改借书人编号（peopleId）
+
+函数：bool updatePeopleId(string filename,book *Book,int PeopleId);
+
+2,修改最近借阅书籍编号（recentBorrowId）
+
+函数：bool updatePeopleRecentBorrowId(string filename,book *Book,int *RecentBorrowId);
+
+3,修改已经借阅的书籍编号（booksBorrowed）
+
+函数：bool updatePeopleBooksBorrowed(string filename,book *Book,int *BooksBorrowed);
+
+4,修改用户密码（password）
+
+函数：bool updatePeoplePassword(string filename,book *Book,int *Password);
+
+5,修改借书人级别（level）
+
+函数：bool updatePeopleLevel(string filename,book *Book,int Level);
+
+6,修改借书人信用点（credit）
+
+函数：bool updatePeopleCredit(string filename,book *Book,int Credit);
+
+7，修改借书人姓名（peopleName）
+
+函数：bool updatePeopleName(string filename,book *Book,char *PeopleName);
+
+8,修改该用户删除标志位（isDeleted）
+
+函数：bool updatePeopleDeleted(string filename,book *Book,bool IsDeleted);
+
+
+-----------连续多次修改---------------------------------------------------------
+
+ void updatePeople(string filename,book *People,int index ){
+
+       //filena书本信息所在文件，People要修改的借书人记录指针
+       //index修改用户信息的类别：1，peopleId  2，recentBorrowId  3，booksBorrowed  4， password  5,level  6，credit 7，peopleName 8，isDeleted;
+       //返回类型为布尔值，ture代表修改成功，false代表修改失败
+
+       //通过switch_case自定义修改,以及index可调用上述单次修改函数
+
+}
+
+
+
+
+
+
+
+
+

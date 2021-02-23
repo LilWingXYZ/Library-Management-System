@@ -1,0 +1,33 @@
+﻿10/16
+
+void addBook(book* pbook)//书本的添加
+{
+	int flag = 1,count = 1;//flag 作为添加是否完成的标志，count 作为添加个数的计数，下同
+	while(flag)
+		{
+			cout << "Please input the BASIC info of book " << count << << "in an order of id, class, name, author, publishdate and price;" << endl;
+			cin >> pbook->bookId >> pbook->bookClass >> pbook->bookName >> pbook->author >> pbook->publishDate >> pbook->price; // 大体框架如此，但由于书名或者作者存在空格会导致识别出错，等至具体代码时再细化；
+			pbook->borrowFlag = false;
+			pbook->isReservedFlag = false;
+			pbook->isPreservedFlag = false;
+			pbook->isLated = false;
+			pbook->isDeleted = false;//bool类型的数据的初始化，基于常理
+			cout << "Finish adding? 0 to exit"<< endl;
+			cin >> flag;
+			count ++;
+		}	 
+}
+
+void addPeople(people* ppl)//借书人/借书卡的办理
+{
+	int flag = 1, count = 1;
+	while(flag)
+		{
+			cout << "Please input the info of the << count << " person, in an order of id, name, password"<<endl;
+			cin >> ppl->peopleId >> ppl -> peopleName >> ppl -> password;
+			ppl->level = 1;
+			ppl->credit = 0;
+			ppl->isDeleted = false;
+			cout << "Finish adding? 0 to exit"<< endl;
+			cin >> flag;
+			count +

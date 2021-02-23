@@ -1,0 +1,91 @@
+-----------**根据书籍爬取最大字节数修改字符数组大小**-------------------
+typedef enum bookClassification{MaoDeng,PhilosophyReligion,Social,PoliticalLaw,Military,Economic,Literature_PE,Language,
+Literature,Art,HistoryGeography,Nature,MathChemistry,Astronomy,Biology,Medicine,Agriculture,Industry,Transportation,Aerospace,Environmental,Safety,Comprehensive}BookType;
+/*依次对应为马列主义、毛泽东思想、邓小平理论,哲学宗教,社会科学总论,政治法律,军事,经济,文化、科学、教育、体育,语言、文字,文学,艺术,历史、地理,自然科学总论,数理科学与化学,天文学、地球科学,生物科学,医药、卫生,农业科学,工业技术,交通运输,航空、航天,环境科学,安全科学,综合性图书*/
+
+
+//根据枚举值获取对应分类名称
+string getBookValue(BookType num){
+
+    switch(num){
+        case MaoDeng:
+            return "马列主义、毛泽东思想、邓小平理论";
+        case PhilosophyReligion:
+            return "哲学宗教";
+        case Social:
+            return "社会科学总论";
+        case PoliticalLaw:
+            return "政治法律";
+        case Military:
+            return "军事";
+         case Economic:
+            return "经济";
+        case Literature_PE:
+            return "文化、科学、教育、体育";
+        case Language:
+            return "语言、文字";
+        case Literature:
+            return "文学";
+        case Art:
+            return "艺术";
+        case HistoryGeography:
+            return "历史、地理";
+        case Nature:
+            return "自然科学总论";
+        case MathChemistry:
+            return "数理科学与化学";
+        case Astronomy:
+            return "天文学、地球科学";
+        case Biology:
+            return "生物科学";
+        case Medicine:
+            return "医药、卫生";
+        case Agriculture:
+            return "农业科学";
+        case Industry:
+            return "工业技术";
+        case Transportation:
+            return "交通运输";
+        case Aerospace:
+            return  "航空、航天";
+        case Environmental:
+            return "环境科学";
+        case Safety:
+            return "安全科学";
+        case Comprehensive:
+            return "综合性图书";
+        default:
+            break;
+    }
+
+}
+
+typedef struct{
+	unsigned int bookId;//identify number for books
+	unsigned int peopleId;//indentify number for readers
+	int bookClass;//书籍分类,bookClass为0-25，分别对应26个分类
+	float price;//价格
+	char bookName[45];//书名,最大44个字节，22个汉字
+	char publisher[25];//出版社,24个字节，12个汉字
+	char author[25];//作者，24个字节，12个汉字
+	char publishDate[5];//出版年份，4个字节，只有年份，例如2009
+	char borrowTime[11];//time of lending the book,year xxxx month xx date xx hour xx
+	char borrowFlag;//借出标志位
+	char isReservedFlag;//预定标志位
+	char isPreservedFlag;//保存本标志位
+	char isLated;//是否逾期
+	char isDeleted;//whether the record is delated(false as default)
+	char isRealDeleted;//是否真正删除
+}book;
+
+typedef struct{
+	unsigned int peopleId;//借书人编号
+	unsigned int[10] recentBorrowId;//最近借阅书籍编号
+	unsigned int[5] booksBorrowed;//已经借阅的书籍
+	char password[10];//password for the user
+	int level;//借书人级别
+	int credit;//信用点
+	char peopleName[20];//people's name
+	char isDeleted;//whether the record is delated(false as default)
+	char isRealDeleted;//是否真正删除
+}people; 

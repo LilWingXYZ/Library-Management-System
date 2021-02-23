@@ -1,0 +1,87 @@
+2017.10 12 21:12   第一阶段第一部分（查）————张文政
+
+
+目前初步构思的查询书籍信息的方式分为两类共8种：
+
+-----------无筛选条件查询：---------------------------------------------------------
+1：一次性无筛选条件把所有图书信息的数据查出来
+函数：book *searchAllBooks();
+
+-----------有条件的判断查询（多条件筛选暂不实现，前期完成后再考虑应用之前的调整）---
+
+2：根据书籍编号（unsigned int bookId）查询
+
+book *searchBookId(unsigned int bookId){
+
+vector <book> b;
+
+//声明了一个book类型数组b[],大小没有指定,可以动态的向里面添加删除
+//需要 #include<vector> 头文件 以及 using namespace std;
+
+if(找到一本符合条件的书){
+对b进行处理……
+}
+
+……
+book *c = b;
+return c;返回的是b的地址;
+//下面的查询函数类似
+
+}
+
+3：根据借书人编号（unsigned int peopleId）查询
+book *searchPeopleId(unsigned int peopleId);
+
+4：根据书籍分类（int bookClass）查询
+book *searchBookClass(int bookClass);
+
+5：根据书籍价格区间（float price）查询
+book *searchPrice(float price);
+
+6：根据书籍名称（char[8] name）查询
+book *searchName(char[8] name);
+
+7：根据书籍出版社（char[8] publisher）查询
+book *searchPublisher(char[8] publisher);
+
+8：根据书籍作者（char[8] author）查询
+book *searchAuthor(char[8] author);
+
+9：根据书籍出版年份区间（char[8] publishDate）查询
+book *searchPublishDate(char[8] publishDate);
+
+10：根据书籍借出时间区间（char[10] borrowTime）查询
+book *searchBorrowTime(char[10] borrowTime);
+
+
+
+
+目前初步构思的查询用户信息的方式分为两类共9种：
+
+-----------无筛选条件查询：-------------------------------------------------------
+1：一次性无筛选条件把所有用户（人）的数据查出来
+people *searchAllPeople();
+
+-----------有条件的判断查询（多条件筛选暂不实现，前期完成后再考虑）---------------
+
+2：根据借书人编号（unsigned int peopleId）查询
+people *searchPeopleId(unsigned int peopleId);
+
+3：根据借书人最近借阅书籍编号（unsigned int[10] recentBorrowId）查询
+people *searchRecentBorrowId(unsigned int[10] recentBorrowId);
+
+
+4：根据借书人级别（int rank）查询
+people *searchRank(int rank);
+
+5：根据借书人信用点（int credit）查询
+people *searchCredit(int credit);
+
+
+
+
+
+-------------展示函数-------------------------------------------------------------
+
+showBooks(book *b);//通过地址寻找数组批量展示
+showPeoples(people *p);//通过地址寻找数组批量展示
